@@ -1,0 +1,130 @@
+/*--------*/
+/*CSS RESET
+/*--------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---------------*/
+/*GENERAL STYLING
+/*---------------*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F5D04E;
+    font-family: 'Figtree', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*------------------------------------*/
+/*STYLING THE ATTRIBUTION AT THE BOTTOM
+/*------------------------------------*/
+
+p.attribution__copy {
+    font-size: 1.6rem;
+    color: #3b3b3b;
+}
+
+a.attribution__link {
+    font-size: 2rem;
+    color: #020202;
+    font-weight: 600;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+a.attribution__link:hover {
+ opacity: 0.8;
+}
+
+/*--------------*/
+/*STYLING THE CARD
+/*--------------*/
+
+section.card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2.4rem;
+    border-radius: 1.6rem;
+    width: 100%;
+    max-width: 39.1rem;
+    border: 0.1rem solid #000000;
+    box-shadow: #000 0.8rem 0.8rem 0;
+}
+
+svg {
+    border-radius: 1.6rem;
+}
+
+p.card__copy {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4b4b4b;
+}
+
+a.card__heading {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #020202;
+    margin-bottom: 2.4rem;
+    transition: all 0.3s;
+}
+
+a.card__heading:hover {
+    color: #8a6c03;
+}
+
+p.card__eyebrowbg {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+    font-weight: 800;
+    background: #F9CD52;
+    width: fit-content;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    color: #020202;
+} 
+
+p.card__eyebrow {
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+    color: #020202;
+}
+
+section.cardbottom {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+p.cardbottom__name {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+img.cardbottom__img {
+    width: 100%;
+    max-width: 4rem;
+}
